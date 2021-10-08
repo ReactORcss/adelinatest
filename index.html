@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header id="header" class="header">
+      <div class="container">
+        <div class="header__content-inner">
+          <div class="header__logo">
+            <a class="header__link" href="#">
+              <img class="header__logo" src="images/vector.svg" alt="">
+            </a>
+          </div>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Пункт меню</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Пункт меню</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Пункт меню</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="header__button">
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section class="content">
+      <div class="container">
+        <div class="content__inner-wrapper">
+          <div class="three__block-row">
+            <a class="content__item content__item-1" href="#popup">
+              <button class="button"><svg class="icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20 9.52381H10.4762V0H9.52381V9.52381H0V10.4762H9.52381V20H10.4762V10.4762H20V9.52381Z"
+                    fill="black" />
+                </svg>Открыть окно</button>
+            </a>
+            <a class="content__item content__item-2" href="#popup">
+              <button class="button"><svg class="icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20 9.52381H10.4762V0H9.52381V9.52381H0V10.4762H9.52381V20H10.4762V10.4762H20V9.52381Z"
+                    fill="black" />
+                </svg>Открыть окно</button>
+              <p class="content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ullamcorper
+                blandit tellus, at dignissim neque sagittis quis. Praesent et euismod lectus.</p>
+            </a>
+            <a class="content__item content__item-3" href="#popup">
+              <button class="button"><svg class="icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20 9.52381H10.4762V0H9.52381V9.52381H0V10.4762H9.52381V20H10.4762V10.4762H20V9.52381Z"
+                    fill="black" />
+                </svg>Открыть окно</button>
+            </a>
+          </div>
+          <div class="three__block-row">
+            <a class="content__item content__item-4" href="#popup">
+              <button class="button"><svg class="icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20 9.52381H10.4762V0H9.52381V9.52381H0V10.4762H9.52381V20H10.4762V10.4762H20V9.52381Z"
+                    fill="black" />
+                </svg>Открыть окно</button>
+            </a>
+            <a class="content__item content__item-5" href="#popup">
+              <div class="content__img"><img class="content__img-item" src="images/dog.jpg" alt="image"></div>
+              <button class="button"><svg class="icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20 9.52381H10.4762V0H9.52381V9.52381H0V10.4762H9.52381V20H10.4762V10.4762H20V9.52381Z"
+                    fill="black" />
+                </svg>Открыть окно</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="popup" class="popup">
+      <a href="#header" class="popup__area"></a>
+      <div class="popup__body">
+        <div class="popup__content">
+          <a href="#header">
+            <button class="button__close"><svg class="icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M10 0C4.48615 0 0 4.48577 0 10C0 15.5142 4.48615 20 10 20C15.5138 20 20 15.5142 20 10C20 4.48577 15.5138 0 10 0ZM10 19.2308C4.91038 19.2308 0.769231 15.0896 0.769231 10C0.769231 4.91038 4.91038 0.769231 10 0.769231C15.0896 0.769231 19.2308 4.91038 19.2308 10C19.2308 15.0896 15.0896 19.2308 10 19.2308Z"
+                  fill="black" />
+                <path
+                  d="M13.7334 6.26654C13.583 6.11615 13.3399 6.11615 13.1895 6.26654L9.99994 9.45615L6.81032 6.26654C6.65994 6.11615 6.41686 6.11615 6.26647 6.26654C6.11609 6.41692 6.11609 6.66 6.26647 6.81038L9.45609 10L6.26647 13.1896C6.11609 13.34 6.11609 13.5831 6.26647 13.7335C6.34147 13.8085 6.43994 13.8462 6.5384 13.8462C6.63686 13.8462 6.73532 13.8085 6.81032 13.7335L9.99994 10.5438L13.1895 13.7335C13.2646 13.8085 13.363 13.8462 13.4615 13.8462C13.5599 13.8462 13.6584 13.8085 13.7334 13.7335C13.8838 13.5831 13.8838 13.34 13.7334 13.1896L10.5438 10L13.7334 6.81038C13.8838 6.66 13.8838 6.41692 13.7334 6.26654Z"
+                  fill="black" />
+              </svg>Закрыть окно</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content-inner">
+          <div class="header__logo">
+            <a href="#">
+              <img src="images/vector_white.svg" alt="">
+            </a>
+          </div>
+          <div class="copyright">
+            <a href="#">
+              <p>Копирайт</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
